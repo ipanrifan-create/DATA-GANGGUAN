@@ -15,6 +15,9 @@ from selenium.webdriver.chrome.options import Options
 
 
 def upload_to_github(data, filename="data_gangguan.json"):
+    """
+    Upload data JSON ke repository GitHub.
+    """
     token = os.environ.get('GITHUB_TOKEN')
     if not token:
         print("[ERROR] GITHUB_TOKEN tidak ditemukan di environment variables!")
@@ -22,7 +25,15 @@ def upload_to_github(data, filename="data_gangguan.json"):
 
     try:
         g = Github(token)
-        repo = g.get_repo("ipanrifan-create/DATA-KR") # Ganti jika nama repo berbeda
+        
+        # OTOMATIS mendeteksi nama repo tempat script ini dijalankan
+        repo_name = os.environ.get('GITHUB_REPOSITORY')
+        if not repo_name:
+            print("[ERROR] GITHUB_REPOSITORY tidak ditemukan. Pastikan dijalankan via GitHub Actions.")
+            return False
+            
+        print(f"[INFO] Target repository: {repo_name}")
+        repo = g.get_repo(repo_name)
         
         file_content = json.dumps(data, indent=4, ensure_ascii=False)
 
@@ -51,6 +62,9 @@ def upload_to_github(data, filename="data_gangguan.json"):
 
 
 def create_chrome_driver():
+    """
+    Membuat instance Chrome WebDriver yang kompatibel dengan GitHub Actions.
+    """
     options = Options()
     options.add_argument('--headless=new')
     options.add_argument('--no-sandbox')
@@ -80,6 +94,13 @@ def create_chrome_driver():
 
 
 def jalankan_bot():
+    """
+    Fungsi utama bot:
+    1. Login ke Web
+    2. Ambil Cookies
+    3. Request API JSON
+    4. Upload ke GitHub
+    """
     print("=" * 50)
     print("=== [START] Operasi Bot Ambil Data API ===")
     print("=" * 50)
@@ -116,7 +137,7 @@ def jalankan_bot():
             time.sleep(5)
             print("[STEP 1] Login berhasil!")
         else:
-            print("[STEP 1] Tidak ada kredensial, langsung mengakses web...")
+            print("[STEP 1] Tidak ada kredensial ditemukan, langsung mengakses web...")
 
         # ===== STEP 2: Ambil Cookies =====
         print("[STEP 2] Mengambil session cookies...")
