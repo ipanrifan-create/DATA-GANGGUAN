@@ -2,8 +2,10 @@ name: Bot Ambil Data Gangguan
 
 on:
   schedule:
-    # Berjalan otomatis setiap 1 jam sekali pada menit ke-38 (Bypass antrean padat GitHub)
-    - cron: '38 * * * *'
+    # Berjalan otomatis setiap 1 jam sekali pada menit ke-42 (Bypass antrean padat GitHub)
+    - cron: '42 * * * *'
+  # Menampilkan kembali tombol "Run workflow" di halaman GitHub Actions
+  workflow_dispatch:
 
 # Memberikan izin tulis ke token bawaan GitHub agar bisa commit file JSON
 permissions:
