@@ -2,10 +2,14 @@ name: Bot Ambil Data Gangguan
 
 on:
   schedule:
-    # Jalankan setiap 1 jam sekali (UTC time)
+    # Jalankan otomatis setiap 1 jam sekali (UTC time)
     - cron: '0 * * * *'
-  # Bisa juga dijalankan manual
+  # Bisa juga dijalankan manual dari tab Actions
   workflow_dispatch:
+
+# Memberikan izin tulis ke token bawaan GitHub agar bisa commit file JSON
+permissions:
+  contents: write
 
 jobs:
   run-bot:
@@ -29,8 +33,8 @@ jobs:
 
     - name: Run Python Script
       env:
-        # Token untuk akses GitHub API (ambil dari Secrets)
-        GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        # Menggunakan token bawaan GitHub (TIDAK PERLU PAT)
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         EMAIL_WEB: ${{ secrets.EMAIL_WEB }}
         PASS_WEB: ${{ secrets.PASS_WEB }}
       run: |
