@@ -12,12 +12,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.keys import Keys
 
 
 def upload_to_github(data, filename="data_gangguan.json"):
-    """
-    Upload data JSON ke repository GitHub.
-    """
     token = os.environ.get('GITHUB_TOKEN')
     if not token:
         print("[ERROR] GITHUB_TOKEN tidak ditemukan di environment variables!")
@@ -25,11 +23,9 @@ def upload_to_github(data, filename="data_gangguan.json"):
 
     try:
         g = Github(token)
-        
-        # OTOMATIS mendeteksi nama repo tempat script ini dijalankan
         repo_name = os.environ.get('GITHUB_REPOSITORY')
         if not repo_name:
-            print("[ERROR] GITHUB_REPOSITORY tidak ditemukan. Pastikan dijalankan via GitHub Actions.")
+            print("[ERROR] GITHUB_REPOSITORY tidak ditemukan.")
             return False
             
         print(f"[INFO] Target repository: {repo_name}")
@@ -62,9 +58,6 @@ def upload_to_github(data, filename="data_gangguan.json"):
 
 
 def create_chrome_driver():
-    """
-    Membuat instance Chrome WebDriver yang kompatibel dengan GitHub Actions.
-    """
     options = Options()
     options.add_argument('--headless=new')
     options.add_argument('--no-sandbox')
@@ -94,13 +87,6 @@ def create_chrome_driver():
 
 
 def jalankan_bot():
-    """
-    Fungsi utama bot:
-    1. Login ke Web
-    2. Ambil Cookies
-    3. Request API JSON
-    4. Upload ke GitHub
-    """
     print("=" * 50)
     print("=== [START] Operasi Bot Ambil Data API ===")
     print("=" * 50)
@@ -111,7 +97,6 @@ def jalankan_bot():
     driver = create_chrome_driver()
 
     try:
-        # ===== STEP 1: Login ke Web =====
         if email and password:
             print("[STEP 1] Membuka halaman login...")
             driver.get("https://amc-kal-2-gudang.pages.dev/login") 
@@ -129,9 +114,9 @@ def jalankan_bot():
             password_input.clear()
             password_input.send_keys(password)
 
-            print("[STEP 1] Klik tombol Login...")
-            login_button = driver.find_element(By.XPATH, "//button[contains(text(), 'Login') or contains(text(), 'Log in')]")
-            login_button.click()
+            # PERBAIKAN: Tekan Enter di kolom password alih-alih mencari tombol
+            print("[STEP 1] Menekan Enter untuk Login...")
+            password_input.send_keys(Keys.RETURN)
 
             print("[STEP 1] Menunggu redirect setelah login...")
             time.sleep(5)
@@ -139,14 +124,12 @@ def jalankan_bot():
         else:
             print("[STEP 1] Tidak ada kredensial ditemukan, langsung mengakses web...")
 
-        # ===== STEP 2: Ambil Cookies =====
         print("[STEP 2] Mengambil session cookies...")
         driver.get("https://amc-kal-2-gudang.pages.dev/dashboard/gangguan")
         time.sleep(3)
         session_cookies = {c['name']: c['value'] for c in driver.get_cookies()}
         print(f"[STEP 2] Berhasil mengambil {len(session_cookies)} cookies.")
 
-        # ===== STEP 3: Request API JSON =====
         headers = {
             'accept': '*/*',
             'referer': 'https://amc-kal-2-gudang.pages.dev/dashboard/gangguan',
@@ -163,7 +146,6 @@ def jalankan_bot():
             timeout=60
         )
 
-        # ===== STEP 4: Upload ke GitHub =====
         if response_api.status_code == 200:
             print("[STEP 3] Berhasil mengambil data!")
             print("[STEP 4] Mengupload langsung ke GitHub...")
