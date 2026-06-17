@@ -1,0 +1,37 @@
+name: Bot Ambil Data Gangguan
+
+on:
+  schedule:
+    # Jalankan setiap 1 jam sekali (UTC time)
+    - cron: '0 * * * *'
+  # Bisa juga dijalankan manual
+  workflow_dispatch:
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install Dependencies & Chrome
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        sudo apt-get update
+        sudo apt-get install -y chromium-browser
+
+    - name: Run Python Script
+      env:
+        # Token untuk akses GitHub API (ambil dari Secrets)
+        GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        EMAIL_WEB: ${{ secrets.EMAIL_WEB }}
+        PASS_WEB: ${{ secrets.PASS_WEB }}
+      run: |
+        python main.py
