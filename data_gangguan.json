@@ -1,6 +1,68 @@
 {
     "gangguanTransactions": [
         {
+            "id": 633,
+            "nomor_lh05": "0602/ND KAL 2/LH05/2026",
+            "tanggal_laporan": "2026-07-03T23:30",
+            "jenis_gangguan": "MEKANIK",
+            "lokasi_gangguan": "SUNGAI BALI",
+            "user_laporan": "maolana iqwany",
+            "status": "Open",
+            "catatan_tindakan": "pemantauan mesin",
+            "rencana_perbaikan": "permintaan material",
+            "ttd_teknisi": "data:image/png;base64,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",
+            "ttd_supervisor": "",
+            "created_at": "2026-07-03 23:40:25",
+            "updated_at": "2026-07-03 23:40:25",
+            "komponen_rusak": "FILTER RACOR",
+            "gejala": "proses loading bbm ke mesin terhambat",
+            "uraian_kejadian": "proses loading bbm ke mesin terhambat",
+            "analisa_penyebab": "endapan hasil fiterisasi sdah menumpuk",
+            "kesimpulan": "filter perlu penggantian",
+            "beban_puncak": 520,
+            "daya_mampu": 842,
+            "pemadaman": "NORMAL",
+            "kelompok_spd": "MEKANIK",
+            "materials": [
+                {
+                    "id": 2009,
+                    "partNumber": "2020-PM",
+                    "material": "RACOR FILTER",
+                    "mesin": "ALL MESIN",
+                    "jumlah": 4,
+                    "status": "N/A",
+                    "snMesin": "11895187",
+                    "unitULD": "SUNGAI BALI",
+                    "lokasiTujuan": "SUNGAI BALI",
+                    "jenisBarang": "FILTER"
+                },
+                {
+                    "id": 2010,
+                    "partNumber": "2020-PM",
+                    "material": "RACOR FILTER",
+                    "mesin": "ALL MESIN",
+                    "jumlah": 4,
+                    "status": "N/A",
+                    "snMesin": "11902075",
+                    "unitULD": "SUNGAI BALI",
+                    "lokasiTujuan": "SUNGAI BALI",
+                    "jenisBarang": "FILTER"
+                },
+                {
+                    "id": 2011,
+                    "partNumber": "2020-PM",
+                    "material": "RACOR FILTER",
+                    "mesin": "ALL MESIN",
+                    "jumlah": 3,
+                    "status": "N/A",
+                    "snMesin": "12022521",
+                    "unitULD": "SUNGAI BALI",
+                    "lokasiTujuan": "SUNGAI BALI",
+                    "jenisBarang": "FILTER"
+                }
+            ]
+        },
+        {
             "id": 632,
             "nomor_lh05": "0601/ND KAL 2/LH05/2026",
             "tanggal_laporan": "2026-07-03T02:39",
