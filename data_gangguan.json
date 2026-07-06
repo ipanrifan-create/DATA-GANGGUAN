@@ -1,6 +1,44 @@
 {
     "gangguanTransactions": [
         {
+            "id": 640,
+            "nomor_lh05": "0609/ND KAL 2/LH05/2026",
+            "tanggal_laporan": "2026-07-06T00:25",
+            "jenis_gangguan": "ELEKTRIK",
+            "lokasi_gangguan": "KENAMBUI",
+            "user_laporan": "ARYUNI",
+            "status": "Open",
+            "catatan_tindakan": "Ganti AVR",
+            "rencana_perbaikan": "Menunggu material pengganti",
+            "ttd_teknisi": "data:image/png;base64,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",
+            "ttd_supervisor": "",
+            "created_at": "2026-07-06 00:40:01",
+            "updated_at": "2026-07-06 00:40:01",
+            "komponen_rusak": "AVR AS440",
+            "gejala": "Tegangan tidak ada",
+            "uraian_kejadian": "Saat mesin d on kan tegangan hilang mesin mati",
+            "analisa_penyebab": "AVR RUSAK",
+            "kesimpulan": "AVR RUSAK",
+            "beban_puncak": 125,
+            "daya_mampu": 80,
+            "pemadaman": "NORMAL",
+            "kelompok_spd": "ELEKTRIK",
+            "materials": [
+                {
+                    "id": 2023,
+                    "partNumber": "AS 440",
+                    "material": "AVR AS440",
+                    "mesin": "BF6M 1013 EC",
+                    "jumlah": 4,
+                    "status": "N/A",
+                    "snMesin": "12027960",
+                    "unitULD": "KENAMBUI",
+                    "lokasiTujuan": "KENAMBUI",
+                    "jenisBarang": "MATERIAL HANDAL"
+                }
+            ]
+        },
+        {
             "id": 639,
             "nomor_lh05": "0608/ND KAL 2/LH05/2026",
             "tanggal_laporan": "2026-07-05T09:39",
@@ -68,7 +106,7 @@
                     "material": "WATER PUMP MESIN TCD 2013",
                     "mesin": "TCD 2013 L06 4V",
                     "jumlah": 1,
-                    "status": "N/A",
+                    "status": "Terkirim",
                     "snMesin": "11954660",
                     "unitULD": "PEGATAN",
                     "lokasiTujuan": "PEGATAN",
