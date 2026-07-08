@@ -1,6 +1,68 @@
 {
     "gangguanTransactions": [
         {
+            "id": 644,
+            "nomor_lh05": "0613/ND KAL 2/LH05/2026",
+            "tanggal_laporan": "2026-07-08T02:48",
+            "jenis_gangguan": "MEKANIK",
+            "lokasi_gangguan": "KERUMPUTAN",
+            "user_laporan": "maolana iqwany",
+            "status": "Open",
+            "catatan_tindakan": "pemantauan mesin",
+            "rencana_perbaikan": "perlu pengecekan lebih lanjut",
+            "ttd_teknisi": "data:image/png;base64,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",
+            "ttd_supervisor": "",
+            "created_at": "2026-07-08 03:30:32",
+            "updated_at": "2026-07-08 03:30:32",
+            "komponen_rusak": "V-Belt ",
+            "gejala": "V-Belt sering putus",
+            "uraian_kejadian": "V-Belt sering putus ",
+            "analisa_penyebab": "anomali pada centering vulley",
+            "kesimpulan": "anomali pada centering vulley",
+            "beban_puncak": 52,
+            "daya_mampu": 180,
+            "pemadaman": "NORMAL",
+            "kelompok_spd": "MEKANIK",
+            "materials": [
+                {
+                    "id": 2030,
+                    "partNumber": "REP-3460",
+                    "material": "VBELT RADIATOR BF6M 1013EC (Bergigi)",
+                    "mesin": "BF6M 1013 EC",
+                    "jumlah": 5,
+                    "status": "N/A",
+                    "snMesin": "11953974",
+                    "unitULD": "KERUMPUTAN",
+                    "lokasiTujuan": "KERUMPUTAN",
+                    "jenisBarang": "MATERIAL HANDAL"
+                },
+                {
+                    "id": 2031,
+                    "partNumber": "0134 0130",
+                    "material": "FILTER INSERT BBM BF6M",
+                    "mesin": "BF6M 1013 EC",
+                    "jumlah": 5,
+                    "status": "N/A",
+                    "snMesin": "11953974",
+                    "unitULD": "KERUMPUTAN",
+                    "lokasiTujuan": "KERUMPUTAN",
+                    "jenisBarang": "FILTER"
+                },
+                {
+                    "id": 2032,
+                    "partNumber": "0134 0130",
+                    "material": "FILTER INSERT BBM BF6M",
+                    "mesin": "BF6M 1013 EC",
+                    "jumlah": 5,
+                    "status": "N/A",
+                    "snMesin": "11953979",
+                    "unitULD": "KERUMPUTAN",
+                    "lokasiTujuan": "KERUMPUTAN",
+                    "jenisBarang": "FILTER"
+                }
+            ]
+        },
+        {
             "id": 643,
             "nomor_lh05": "0612/ND KAL 2/LH05/2026",
             "tanggal_laporan": "2026-07-07T13:37",
