@@ -1,6 +1,56 @@
 {
     "gangguanTransactions": [
         {
+            "id": 690,
+            "nomor_lh05": "0659/ND KAL 2/LH05/2026",
+            "tanggal_laporan": "2026-07-27T22:56",
+            "jenis_gangguan": "ELEKTRIK",
+            "lokasi_gangguan": "GUNUNG PUREI",
+            "user_laporan": "Supiansyah ",
+            "status": "Open",
+            "catatan_tindakan": "Nunggu material ",
+            "rencana_perbaikan": "Nunggu material ",
+            "ttd_teknisi": "data:image/png;base64,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",
+            "ttd_supervisor": "",
+            "created_at": "2026-07-27 23:01:27",
+            "updated_at": "2026-07-27 23:01:27",
+            "komponen_rusak": "Motores",
+            "gejala": "Mesin susah pararel ",
+            "uraian_kejadian": "Beban tinggi mesin tidak bisa pararel ",
+            "analisa_penyebab": "Tidak bisa singkron ",
+            "kesimpulan": "Motores ",
+            "beban_puncak": 100,
+            "daya_mampu": 100,
+            "pemadaman": "NORMAL",
+            "kelompok_spd": "ELEKTRIK",
+            "materials": [
+                {
+                    "id": 2167,
+                    "partNumber": "C25F6TM250",
+                    "material": "MCCB BREAKER 250 A",
+                    "mesin": "BF6M 1013 EC",
+                    "jumlah": 1,
+                    "status": "N/A",
+                    "snMesin": "Mesin BF 6 M",
+                    "unitULD": "GUNUNG PUREI",
+                    "lokasiTujuan": "GUNUNG PUREI",
+                    "jenisBarang": "MATERIAL HANDAL"
+                },
+                {
+                    "id": 2168,
+                    "partNumber": "LV431541",
+                    "material": "MCCB MOTORIZE 250A",
+                    "mesin": "BF6M 1013 EC",
+                    "jumlah": 1,
+                    "status": "N/A",
+                    "snMesin": "11953381",
+                    "unitULD": "GUNUNG PUREI",
+                    "lokasiTujuan": "GUNUNG PUREI",
+                    "jenisBarang": "MATERIAL HANDAL"
+                }
+            ]
+        },
+        {
             "id": 689,
             "nomor_lh05": "0658/ND KAL 2/LH05/2026",
             "tanggal_laporan": "2026-07-27T12:23",
