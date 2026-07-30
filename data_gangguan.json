@@ -1,6 +1,44 @@
 {
     "gangguanTransactions": [
         {
+            "id": 693,
+            "nomor_lh05": "0662/ND KAL 2/LH05/2026",
+            "tanggal_laporan": "2026-07-30T07:21",
+            "jenis_gangguan": "MEKANIK",
+            "lokasi_gangguan": "TUMBANG SENAMANG",
+            "user_laporan": "YUDI SETIONO",
+            "status": "Open",
+            "catatan_tindakan": "Meminta water pump ke kantor Nusa Daya",
+            "rencana_perbaikan": "Mengganti water pump apabila sdh ada materialnya",
+            "ttd_teknisi": "data:image/png;base64,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",
+            "ttd_supervisor": "",
+            "created_at": "2026-07-30 02:29:50",
+            "updated_at": "2026-07-30 02:29:50",
+            "komponen_rusak": "Derating ",
+            "gejala": "Temperatur air naik diatas 82°,beban 55 kw\nSuara berisik dari water pump",
+            "uraian_kejadian": "Temp air naik apabila beban di atas 55 kw",
+            "analisa_penyebab": "Water pump aus/kurang normal",
+            "kesimpulan": "Water pump kerja kurang normal",
+            "beban_puncak": 306,
+            "daya_mampu": 450,
+            "pemadaman": "SIAGA",
+            "kelompok_spd": "MEKANIK",
+            "materials": [
+                {
+                    "id": 2175,
+                    "partNumber": "0293-7440",
+                    "material": "WATER PUMP MESIN BF6M 1013 EC",
+                    "mesin": "BF6M 1013 EC",
+                    "jumlah": 1,
+                    "status": "N/A",
+                    "snMesin": "11953984",
+                    "unitULD": "TUMBANG SENAMANG",
+                    "lokasiTujuan": "TUMBANG SENAMANG",
+                    "jenisBarang": "MATERIAL HANDAL"
+                }
+            ]
+        },
+        {
             "id": 692,
             "nomor_lh05": "0661/ND KAL 2/LH05/2026",
             "tanggal_laporan": "2026-07-29T02:50",
@@ -154,7 +192,7 @@
                     "material": "MCCB BREAKER 250 A",
                     "mesin": "BF6M 1013 EC",
                     "jumlah": 1,
-                    "status": "Pengadaan",
+                    "status": "Terkirim",
                     "snMesin": "Mesin BF 6 M",
                     "unitULD": "GUNUNG PUREI",
                     "lokasiTujuan": "GUNUNG PUREI",
@@ -166,7 +204,7 @@
                     "material": "MCCB MOTORIZE 250A",
                     "mesin": "BF6M 1013 EC",
                     "jumlah": 1,
-                    "status": "Pengadaan",
+                    "status": "Terkirim",
                     "snMesin": "11953381",
                     "unitULD": "GUNUNG PUREI",
                     "lokasiTujuan": "GUNUNG PUREI",
