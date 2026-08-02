@@ -1,6 +1,44 @@
 {
     "gangguanTransactions": [
         {
+            "id": 696,
+            "nomor_lh05": "0665/ND KAL 2/LH05/2026",
+            "tanggal_laporan": "2026-08-02T14:10",
+            "jenis_gangguan": "MEKANIK",
+            "lokasi_gangguan": "KERASIAN",
+            "user_laporan": "DARMIN",
+            "status": "Open",
+            "catatan_tindakan": "menunggu Aki baru",
+            "rencana_perbaikan": "Menunggu Aki baru",
+            "ttd_teknisi": "data:image/png;base64,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",
+            "ttd_supervisor": "",
+            "created_at": "2026-08-02 14:16:00",
+            "updated_at": "2026-08-02 14:16:00",
+            "komponen_rusak": "Aki",
+            "gejala": "gk ada kontak ",
+            "uraian_kejadian": "star mesin gk bisa",
+            "analisa_penyebab": "Aki aus",
+            "kesimpulan": "ganti aki",
+            "beban_puncak": 70,
+            "daya_mampu": 85,
+            "pemadaman": "NORMAL",
+            "kelompok_spd": "MEKANIK",
+            "materials": [
+                {
+                    "id": 2178,
+                    "partNumber": "PERAKITAN PANEL",
+                    "material": "JASA PERAKITAN PANEL",
+                    "mesin": "Operasional Unit",
+                    "jumlah": 1,
+                    "status": "N/A",
+                    "snMesin": "11956632",
+                    "unitULD": "KERASIAN",
+                    "lokasiTujuan": "KERASIAN",
+                    "jenisBarang": "MATERIAL HANDAL"
+                }
+            ]
+        },
+        {
             "id": 695,
             "nomor_lh05": "0664/ND KAL 2/LH05/2026",
             "tanggal_laporan": "2026-08-02T08:36",
