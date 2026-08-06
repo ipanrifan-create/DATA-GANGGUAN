@@ -1,6 +1,68 @@
 {
     "gangguanTransactions": [
         {
+            "id": 717,
+            "nomor_lh05": "0686/ND KAL 2/LH05/2026",
+            "tanggal_laporan": "2026-08-06T07:40",
+            "jenis_gangguan": "MEKANIK",
+            "lokasi_gangguan": "TUMBANG MANJUL",
+            "user_laporan": "RIVALDO",
+            "status": "Open",
+            "catatan_tindakan": "Penggantian material",
+            "rencana_perbaikan": "Menunggu material tiba di unit",
+            "ttd_teknisi": "data:image/png;base64,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",
+            "ttd_supervisor": "",
+            "created_at": "2026-08-06 07:50:12",
+            "updated_at": "2026-08-06 07:50:12",
+            "komponen_rusak": "Injector, gasket head dan valve guide",
+            "gejala": "Beban tidak bisa naik dan ada kebocoran pada cyl head dan oli masuk dalam ruang bakar",
+            "uraian_kejadian": "Beban tidak bisa naik dan ada kebocoran pada cyl head dan oli masuk dalam ruang bakar",
+            "analisa_penyebab": "Beban tidak bisa naik dan ada kebocoran pada cyl head dan oli masuk dalam ruang bakar",
+            "kesimpulan": "Injector, gasket head dan valve guide",
+            "beban_puncak": 212,
+            "daya_mampu": 300,
+            "pemadaman": "SIAGA",
+            "kelompok_spd": "MEKANIK",
+            "materials": [
+                {
+                    "id": 2276,
+                    "partNumber": "4915285",
+                    "material": "VALVE GUIDE",
+                    "mesin": "TCD 2013 L06 4V",
+                    "jumlah": 6,
+                    "status": "N/A",
+                    "snMesin": "11958003",
+                    "unitULD": "TUMBANG MANJUL",
+                    "lokasiTujuan": "TUMBANG MANJUL",
+                    "jenisBarang": "MATERIAL HANDAL"
+                },
+                {
+                    "id": 2277,
+                    "partNumber": "4900689",
+                    "material": "GASKET CYLINDER HEAD",
+                    "mesin": "TCD 2013 L06 4V",
+                    "jumlah": 1,
+                    "status": "N/A",
+                    "snMesin": "11958003",
+                    "unitULD": "TUMBANG MANJUL",
+                    "lokasiTujuan": "TUMBANG MANJUL",
+                    "jenisBarang": "MATERIAL HANDAL"
+                },
+                {
+                    "id": 2278,
+                    "partNumber": "4902525",
+                    "material": "FUEL INJECTOR",
+                    "mesin": "TCD 2013 L06 4V",
+                    "jumlah": 1,
+                    "status": "N/A",
+                    "snMesin": "11958003",
+                    "unitULD": "TUMBANG MANJUL",
+                    "lokasiTujuan": "TUMBANG MANJUL",
+                    "jenisBarang": "MATERIAL HANDAL"
+                }
+            ]
+        },
+        {
             "id": 716,
             "nomor_lh05": "0685/ND KAL 2/LH05/2026",
             "tanggal_laporan": "2026-08-06T02:53",
