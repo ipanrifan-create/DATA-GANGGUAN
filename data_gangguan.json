@@ -1,6 +1,82 @@
 {
     "gangguanTransactions": [
         {
+            "id": 732,
+            "nomor_lh05": "0701/ND KAL 2/LH05/2026",
+            "tanggal_laporan": "2026-08-14T14:07",
+            "jenis_gangguan": "ELEKTRIK",
+            "lokasi_gangguan": "TUMPUNG LAUNG",
+            "user_laporan": "Alwan",
+            "status": "Open",
+            "catatan_tindakan": "Sementara mesin di stop",
+            "rencana_perbaikan": "Menunggu pengadaan material ACCU",
+            "ttd_teknisi": "data:image/png;base64,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",
+            "ttd_supervisor": "",
+            "created_at": "2026-08-15 21:17:28",
+            "updated_at": "2026-08-15 21:17:28",
+            "komponen_rusak": "ACCU",
+            "gejala": "Accu mengalami panas berleih",
+            "uraian_kejadian": "Pada saat mau di buat start mesin Accu mengalami kerusakan yang mengakibatkan accu meledak",
+            "analisa_penyebab": "Panas berlebihan yang mengakibatkan accu mengalami kerusakan dan meledak",
+            "kesimpulan": "Kerusakan pada ACCU",
+            "beban_puncak": 489,
+            "daya_mampu": 160,
+            "pemadaman": "DEFISIT",
+            "kelompok_spd": "ELEKTRIK",
+            "materials": [
+                {
+                    "id": 2445,
+                    "partNumber": "N150",
+                    "material": "ACCU 150Ah",
+                    "mesin": "BF6M 1013 E",
+                    "jumlah": 2,
+                    "status": "N/A",
+                    "snMesin": "12022525",
+                    "unitULD": "TUMPUNG LAUNG",
+                    "lokasiTujuan": "TUMPUNG LAUNG",
+                    "jenisBarang": "MATERIAL HANDAL"
+                }
+            ]
+        },
+        {
+            "id": 731,
+            "nomor_lh05": "0700/ND KAL 2/LH05/2026",
+            "tanggal_laporan": "2026-08-14T13:41",
+            "jenis_gangguan": "MEKANIK",
+            "lokasi_gangguan": "TUMPUNG LAUNG",
+            "user_laporan": "Alwan",
+            "status": "Open",
+            "catatan_tindakan": "sementara mengoptimalkan mesin yg ada di unit ",
+            "rencana_perbaikan": "Pengadaan material Dinamo stater ( mesin Dossan 250 kw)",
+            "ttd_teknisi": "data:image/png;base64,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",
+            "ttd_supervisor": "",
+            "created_at": "2026-08-15 21:09:53",
+            "updated_at": "2026-08-15 21:09:53",
+            "komponen_rusak": "Dinamo Stater ( mesin Dossan 250 Kw)",
+            "gejala": "Tidak Bisa berputar",
+            "uraian_kejadian": "Pada saat mau mengoperasikan mesin, dinamo stater di star dan terjadi letupan pada dimamo stater tersebut.",
+            "analisa_penyebab": "Kick stater tidak bisa kembali dan mengakibatkan dinamo stater ikut berputar",
+            "kesimpulan": "Dinamo Stater Terbakar",
+            "beban_puncak": 485,
+            "daya_mampu": 160,
+            "pemadaman": "DEFISIT",
+            "kelompok_spd": "MEKANIK",
+            "materials": [
+                {
+                    "id": 2444,
+                    "partNumber": "65.26201-7074D",
+                    "material": "DINAMO STATER (Mesin Dossan 250 Kw)",
+                    "mesin": "DOOSAN P222 LE",
+                    "jumlah": 1,
+                    "status": "N/A",
+                    "snMesin": "12022525",
+                    "unitULD": "TUMPUNG LAUNG",
+                    "lokasiTujuan": "TUMPUNG LAUNG",
+                    "jenisBarang": "MATERIAL HANDAL"
+                }
+            ]
+        },
+        {
             "id": 730,
             "nomor_lh05": "0699/ND KAL 2/LH05/2026",
             "tanggal_laporan": "2026-08-15T12:17",
