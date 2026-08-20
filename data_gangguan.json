@@ -1,6 +1,92 @@
 {
     "gangguanTransactions": [
         {
+            "id": 738,
+            "nomor_lh05": "0707/ND KAL 2/LH05/2026",
+            "tanggal_laporan": "2026-08-20T01:49",
+            "jenis_gangguan": "MEKANIK",
+            "lokasi_gangguan": "TUMBANG MANJUL",
+            "user_laporan": "RIVALDO",
+            "status": "Open",
+            "catatan_tindakan": "Penggantian material",
+            "rencana_perbaikan": "Menunggu material tiba di unit",
+            "ttd_teknisi": "data:image/png;base64,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",
+            "ttd_supervisor": "",
+            "created_at": "2026-08-20 02:26:23",
+            "updated_at": "2026-08-20 02:26:23",
+            "komponen_rusak": "Ring piston, Liner dan oring liner, pompa oli, injector,housing oiil cooler set",
+            "gejala": "Saat mesin beroperasi di beban 40 kW terlihat asap putih sedikit tebal keluar dari pernapasan dan setiap hari penambahan oli 3-5 ltr, kemudian tekanan oli di angka 2,3 Bar. Asap hitam tebal juga keluar dari knalpot.",
+            "uraian_kejadian": "Saat mesin beroperasi di beban 40 kW terlihat asap putih sedikit tebal keluar dari pernapasan dan setiap hari penambahan oli 3-5 ltr, kemudian tekanan oli di angka 2,3 Bar. Asap hitam tebal juga keluar dari knalpot.",
+            "analisa_penyebab": "Ring piston, Liner dan oring liner, pompa oli, injector,housing oiil cooler set bermasalah",
+            "kesimpulan": "Ring piston, Liner dan oring liner, pompa oli, injector,housing oiil cooler set",
+            "beban_puncak": 240,
+            "daya_mampu": 320,
+            "pemadaman": "NORMAL",
+            "kelompok_spd": "MEKANIK",
+            "materials": [
+                {
+                    "id": 2457,
+                    "partNumber": "8.01E+16",
+                    "material": "RING PISTON SET",
+                    "mesin": "TCD 2013 L06 4V",
+                    "jumlah": 6,
+                    "status": "N/A",
+                    "snMesin": "11902076",
+                    "unitULD": "TUMBANG MANJUL",
+                    "lokasiTujuan": "TUMBANG MANJUL",
+                    "jenisBarang": "MATERIAL HANDAL"
+                },
+                {
+                    "id": 2458,
+                    "partNumber": "0118 1178",
+                    "material": "O RING LINER",
+                    "mesin": "TCD 2013 L06 4V",
+                    "jumlah": 6,
+                    "status": "N/A",
+                    "snMesin": "11902076",
+                    "unitULD": "TUMBANG MANJUL",
+                    "lokasiTujuan": "TUMBANG MANJUL",
+                    "jenisBarang": "MATERIAL HANDAL"
+                },
+                {
+                    "id": 2459,
+                    "partNumber": "2404170059",
+                    "material": "OIL PUMP",
+                    "mesin": "TCD 2013 L06 4V",
+                    "jumlah": 1,
+                    "status": "N/A",
+                    "snMesin": "11902076",
+                    "unitULD": "TUMBANG MANJUL",
+                    "lokasiTujuan": "TUMBANG MANJUL",
+                    "jenisBarang": "MATERIAL HANDAL"
+                },
+                {
+                    "id": 2460,
+                    "partNumber": "04905483",
+                    "material": "HOUSING OIL COOLER TCD 2013",
+                    "mesin": "TCD 2013 L06 4V",
+                    "jumlah": 1,
+                    "status": "N/A",
+                    "snMesin": "11902076",
+                    "unitULD": "TUMBANG MANJUL",
+                    "lokasiTujuan": "TUMBANG MANJUL",
+                    "jenisBarang": "MATERIAL HANDAL"
+                },
+                {
+                    "id": 2461,
+                    "partNumber": "4902525",
+                    "material": "FUEL INJECTOR",
+                    "mesin": "TCD 2013 L06 4V",
+                    "jumlah": 6,
+                    "status": "N/A",
+                    "snMesin": "11902076",
+                    "unitULD": "TUMBANG MANJUL",
+                    "lokasiTujuan": "TUMBANG MANJUL",
+                    "jenisBarang": "MATERIAL HANDAL"
+                }
+            ]
+        },
+        {
             "id": 737,
             "nomor_lh05": "0706/ND KAL 2/LH05/2026",
             "tanggal_laporan": "2026-08-20T01:32",
