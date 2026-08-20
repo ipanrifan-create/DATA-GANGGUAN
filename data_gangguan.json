@@ -1,6 +1,68 @@
 {
     "gangguanTransactions": [
         {
+            "id": 740,
+            "nomor_lh05": "0709/ND KAL 2/LH05/2026",
+            "tanggal_laporan": "2026-08-20T05:17",
+            "jenis_gangguan": "ELEKTRIK",
+            "lokasi_gangguan": "KUDANGAN",
+            "user_laporan": "RIVALDO",
+            "status": "Open",
+            "catatan_tindakan": "KONVERSI PANEL MESIN TCD2013L06V4",
+            "rencana_perbaikan": "Menunggu material tiba di unit",
+            "ttd_teknisi": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAC0CAYAAAC69XpYAAAOB0lEQVR4AezdOa8sRxkG4MNqA8IsAsQqJIwQCSARkThApCREiIg/QAAh/4AQAmJSRERChhAgBCESIBGwiIBNLAJhNmO2770+fd2eO/tMT1d1P1bX7Z6e7lqeGtd75qwvvvMfAQIECBA4Q0CAnIHmFgIECBC4uxMgXgUE5hLQLoHOBQRI5xOo+wQIEJhLQIDMJa9dAgQIdC7QcYB0Lq/7BAgQ6FxAgHQ+gbpPgACBuQQEyFzy2iXQsYCuE4iAAImCQoAAAQInCwiQk8ncQIAAAQIRECBRuHXRHgECBBYgIEAWMImGQIAAgTkEBMgc6tokQGAuAe1eUUCAXBFTVQQIEFiTgABZ02wbKwECBK4oIECuiLmGqoyRAAECg4AAGSTsCRAgQOAkAQFyEpeLCRAgMJdAe+0KkPbmRI8IECDQhYAA6WKadJIAAQLtCQiQ9uZEj6YRUCsBAlcWECBXBlUdAQIE1iIgQNYy08ZJgACBKwscHSBXbld1BAgQINC5gADpfAJ1nwABAnMJCJC55LVL4GgBFxJoU0CAtDkvekWAAIHmBQRI81OkgwQIEGhTYA0B0qa8XhEgQKBzAQHS+QTqPgECBOYSECBzyWuXwBoEjHHRAgJk0dNrcAQIEJhOQIBMZ6tmAgQILFpAgDQ9vTpHgACBdgUESLtzo2cECBBoWkCAND09OkeAwFwC2j0sIEAOG7mCAAECBLYI9Bog/66x/Pe+/K/2aykZdw3XRoAAgfkFWg+QLJjbguIlRfei+1K71WwZd8IyLm0PWu8IEFi8QCsBkgXx3KDIgrqGMn4xDkHyzPikYwIECNxSYM4ASWAMC38WxEPvKHJt7smiOVybfcawhvKvemHEoHYPt5c9PHJAgACB5wRu9m8W3ps1Vg1lEUwIZCHM4l+nHtnyXK7ZFhQJmscfuWMdJx6rYWa+4hajeniX4+wVAgQI3FwgC9ItGk0gZNHLR8zjRS/nBMXpM/C70S3Pjo4dEiBA4GYCUwbIt2sUQ3CMQ6NO3/2n/sm5tL/WdxRFcPb25tGdeVc2eujwUgH3EyBwnEAW8OOuPP6qfEE87yyeqlsSErV7sOXc03WUcy+tvY0AAQIEOha4ZoAM7zY2PyJOcCQ00tYTHVvpOgECBAiMBLKojx6efTiExN3d81XkncgQHM+fdUSAAAECixC4NEASEgmPASPHn64HCY58wbwObQQIECCwRIFLAiSfshp/uirhkfq+sEQoYyLQgYAuEripQBb8UxtMcCQs8i5juPcrdXBOXXWbjQABAgR6FDhl0c+33m4Gx/D44z0OXp8JECBA4HyBUwJkfO0QHONz5/eikTt1gwABAgSOFzg3APLpq4RISyU/0X78yPu+8qej7mcORg8dEiBA4DYCpwTIH2/TpbNbWdMPJz45Uhp/I8PotEMCPQnoa48CpwTIG2qAeeeR372Uj3pbKvnC/loW0vxCypqKB1vG/eDAPwQIELi1wCkBMvTt5XWQ+1oqawmPor8b/3zNmsadsSsECDQkkBBoqDu6ckAgP7g5XJLvihuO7QkQIHBzAQFyc/KLGhy/41jT13wuQnMzAQLTCAiQaVynqHX8jiNfh5qiDXUSIHCqwIqvFyD9TP54rvJ1qH56rqcECCxSYLwoLXKACxnU+LutfruQMRkGAQKdCwiQ9ifwk9XFfPt07e7yrdNvycFyipEQINCrgABpf+a+NOrih0fHDgkQIDCrgACZlf9g4/nU1fjdx7cO3uECAgQIHClw6WUC5FLBae5/b1WbT1eNw8NcFYqNAIF2BFpelPLRdxbRHsr4B/wund1XVgU/rjJsGX/L8zT0054AgZUJtLwwDR999zAl+QG/LPSXBskvarB/qzJsqbPlORr6uc69URNYuUDLi9Pmb//NYtpiGb+ELgmSv1dF76wybHkH1vL8DP20J0BgpQItL1D57b/jEMk7kmFRTb9bKelXFv/xSyhB8s/xiQPHeefyitE1+anz1DE65ZAAAQJtCWQRnqlHRzW7GSJZVLPYHnXzDS96VbWVIPlH7YftsTpI4NVu77YZFqnD77naS+ZJAgRaEGg9QGLUS4ikr/kC+NM5uC8JleHTbgmT8d/yyCU5N56DH9TJ1FE7GwECBNoWGC9eLfe0pxB5oiCH4KjDh1vO5W95JFASHNnn3HBBjj8wPLAnMKWAuglcQ6CXAMlYewqR9De2+Y6qBEVKzg0lYTEcZ7/5OOcUAgQINC2QRa7pDm50rrcQyTuODOFQQCRgNj+9lfsUAgQINCvQW4AEcv4QSS92l5/VU8OnqPJr1zfDI2Hxq7rm11XGW8Imz22W1DWUfMH9T+ObHBMgQGAugR4DJFathchrqlNZ5LP4v6uOt4VGvnss52P+9rrmbVXy+FAg5Jqh5N7X1n1pZ7Ok/ZSEzF/qGhsBAgQmFciCNGkDE1a+LUSyqGahnrDZh1X/pI6yYKfNP9dxFvnavWDLYp7zcc47jBc8ef/g9bXPNX+oferaLHX6qC11pKStV9cdm/Wkrynpk4ApIFuXAjrdkEAWm4a6c3JXEiK/37grPyuSxXOKIMnim0U49b+72s2CXbsXbHk+51NO+XmON1YtmY/Nknq2lfxhqbSVvqTU7Xu3oY7Uvy1gUody9+BvrqzJIa+hfSX/Hz1br6yUZ2r/9SofqmIjcJfFpHeGN9UAsjjmBV6HD7chSK65GMQrbT1s5P4gbeR8Stq9Pz3pLn9YKm2lTylpe1w+X63HJH1LqYc2Ao8IjF8z247zGssHQin5mt5HqobvVcm72PfX3rZigSw8Sxl+Xtz5HyCL5tRjyoKcdyNpL6VFx88UQkzSt5T080V1bthvBkzG1HvZ9ZF05upQyUfaQ8lraFvJR+DbSn57QH6dzWb5a3lnod0s+ZRnfk3PuOSd9G/q+m3ll3X+53tKPp36w3p+W/l+nf/OjvKNOv/VPeXL9dwXR+VrdZy+1+4u72I/mgNlvQJZWJY2+iyaWSSzAFxzQczilHpT4paPyHq22wyYjKn3ko+Wt5XM1aGSr1ENJa+hbeXxmvBtJb89IL/OZrNkkc03WGyW11U9+fTruOSd9Fvr/Lbyjjr/5J7ynnou7wa2lQ/Wc0/tKHk38bF6blf5RD33qVFJYKTvn6tz2b6Zf5T1CmTBWOroswBkfNcqWZiWamVcBE4R+Gxd/L4q361iO1pgeRdmcV3eqIyIAIGpBX40dQPqb19AgLQ/R3pIgACBJgUESJPTolNbBJwiQKAxAQHS2IToDgECBHoRECC9zJR+EiBAYC6BHe0KkB0wThMgQIDAfgEBst/HswQIECCwQ0CA7IBxmsD1BNREYJkCAmSZ82pUBAgQmFxAgExOrAECBAgsU6CHAFmmvFERIECgcwEB0vkE6j4BAgTmEhAgc8lrl0APAvpIYI+AANmD4ykCBAgQ2C0gQHbbeIYAAQIE9ggIkD04lz+lBgIECCxXQIAsd26NjAABApMKCJBJeVVOgMBcAtqdXkCATG+sBQIECCxSQIAscloNigABAtMLCJDpjftsQa8JECBwQECAHADyNAECBAhsFxAg212cJUCAwFwC3bQrQLqZKh0lQIBAWwICpK350BsCBAh0IyBAupkqHT1WwHUECNxGQIDcxlkrBAgQWJyAAFnclBoQAQIEbiPwaIDcpl2tECBAgEDnAgKk8wnUfQIECMwlIEDmktcugUcFnCHQlYAA6Wq6dJYAAQLtCAiQduZCTwgQINCVwKICpCt5nSVAgEDnAgKk8wnUfQIECMwlIEDmktcugUUJGMwaBQTIGmfdmAkQIHAFAQFyBURVECBAYI0CAqSNWdcLAgQIdCcgQLqbMh0mQIBAGwICpI150AsCBOYS0O7ZAgLkbDo3EiBAYN0CAmTd82/0BAgQOFtAgJxN58bnBPxLgMBaBQTIWmfeuAkQIHChgAC5ENDtBAgQmEtg7nYFyNwzoH0CBAh0KiBAOp043SZAgMDcAgJk7hnQ/nwCWiZA4CIBAXIRn5sJECCwXgEBst65N3ICBAhcJHBBgFzUrpsJECBAoHMBAdL5BOo+AQIE5hIQIHPJa5fABQJuJdCCgABpYRb0gQABAh0KCJAOJ02XCRAg0ILAOgOkBXl9IECAQOcCAqTzCdR9AgQIzCUgQOaS1y6BdQoY9YIEBMiCJtNQCBAgcEsBAXJLbW0RIEBgQQICpLPJ1F0CBAi0IiBAWpkJ/SBAgEBnAgKkswnTXQIE5hLQ7qaAANkU8ZgAAQIEjhIQIEcxuYgAAQIENgUEyKaIx1MJqJcAgYUJCJCFTajhECBA4FYCAuRW0tohQIDAXAITtStAJoJVLQECBJYuIECWPsPGR4AAgYkEBMhEsKpdkoCxECCwTUCAbFNxjgABAgQOCgiQg0QuIECAAIFtArcIkG3tOkeAAAECnQsIkM4nUPcJECAwl4AAmUteuwRuIaANAhMKCJAJcVVNgACBJQsIkCXPrrERIEBgQgEBshfXkwQIECCwS0CA7JJxngABAgT2CgiQvTyeJEBgLgHtti8gQNqfIz0kQIBAkwICpMlp0SkCBAi0LyBA2p+j83roLgIECEwsIEAmBlY9AQIEliogQJY6s8ZFgMBcAqtpV4CsZqoNlAABAtcVECDX9VQbAQIEViMgQFYz1f0MVE8JEOhDQID0MU96SYAAgeYEBEhzU6JDBAgQmEvgtHYFyGleriZAgACBewEBcg9hR4AAAQKnCQiQ07xcTWCfgOcIrEpAgKxqug2WAAEC1xMQINezVBMBAgRWJdBUgKxK3mAJECDQucD/AQAA//8K52r6AAAABklEQVQDAJl6MZbwfRkFAAAAAElFTkSuQmCC",
+            "ttd_supervisor": "",
+            "created_at": "2026-08-20 05:20:59",
+            "updated_at": "2026-08-20 05:20:59",
+            "komponen_rusak": "KONVERSI PANEL MESIN TCD2013L06V4",
+            "gejala": "KONVERSI PANEL MESIN TCD2013L06V4",
+            "uraian_kejadian": "KONVERSI PANEL MESIN TCD2013L06V4",
+            "analisa_penyebab": "KONVERSI PANEL MESIN TCD2013L06V4",
+            "kesimpulan": "KONVERSI PANEL MESIN TCD2013L06V4",
+            "beban_puncak": 640,
+            "daya_mampu": 640,
+            "pemadaman": "SIAGA",
+            "kelompok_spd": "ELEKTRIK",
+            "materials": [
+                {
+                    "id": 2463,
+                    "partNumber": "C40F42D400",
+                    "material": "MCCB BREAKER 400A",
+                    "mesin": "TCD 2013 L06 4V",
+                    "jumlah": 1,
+                    "status": "N/A",
+                    "snMesin": "11954661",
+                    "unitULD": "KUDANGAN",
+                    "lokasiTujuan": "KUDANGAN",
+                    "jenisBarang": "MATERIAL HANDAL"
+                },
+                {
+                    "id": 2464,
+                    "partNumber": "LV432641",
+                    "material": "MCCB MOTORIZE 400A",
+                    "mesin": "TCD 2013 L06 4V",
+                    "jumlah": 1,
+                    "status": "N/A",
+                    "snMesin": "11954661",
+                    "unitULD": "KUDANGAN",
+                    "lokasiTujuan": "KUDANGAN",
+                    "jenisBarang": "MATERIAL HANDAL"
+                },
+                {
+                    "id": 2465,
+                    "partNumber": "DSE-8610-MKII",
+                    "material": "DEEPSEA",
+                    "mesin": "TCD 2013 L06 4V",
+                    "jumlah": 1,
+                    "status": "N/A",
+                    "snMesin": "11954661",
+                    "unitULD": "KUDANGAN",
+                    "lokasiTujuan": "KUDANGAN",
+                    "jenisBarang": "MATERIAL HANDAL"
+                }
+            ]
+        },
+        {
             "id": 739,
             "nomor_lh05": "0708/ND KAL 2/LH05/2026",
             "tanggal_laporan": "2026-08-20T04:36",
