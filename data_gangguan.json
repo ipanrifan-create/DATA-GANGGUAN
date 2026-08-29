@@ -1,6 +1,56 @@
 {
     "gangguanTransactions": [
         {
+            "id": 766,
+            "nomor_lh05": "0735/ND KAL 2/LH05/2026",
+            "tanggal_laporan": "2026-08-29T03:39",
+            "jenis_gangguan": "MEKANIK",
+            "lokasi_gangguan": "KERASIAN",
+            "user_laporan": "Darmin",
+            "status": "Open",
+            "catatan_tindakan": "Menunggu supply pump ada",
+            "rencana_perbaikan": "Menunggu supply pump",
+            "ttd_teknisi": "data:image/png;base64,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",
+            "ttd_supervisor": "",
+            "created_at": "2026-08-29 03:45:43",
+            "updated_at": "2026-08-29 03:45:43",
+            "komponen_rusak": "Supply pump",
+            "gejala": "Bocor",
+            "uraian_kejadian": "saat pengoperasia",
+            "analisa_penyebab": "sudah kropos",
+            "kesimpulan": "Minta yang baru",
+            "beban_puncak": 70,
+            "daya_mampu": 85,
+            "pemadaman": "NORMAL",
+            "kelompok_spd": "MEKANIK",
+            "materials": [
+                {
+                    "id": 2518,
+                    "partNumber": "0211 2673",
+                    "material": "FUEL SUPPLY PUMP",
+                    "mesin": "BF6M 1013 EC",
+                    "jumlah": 2,
+                    "status": "N/A",
+                    "snMesin": "11956632",
+                    "unitULD": "KERASIAN",
+                    "lokasiTujuan": "KERASIAN",
+                    "jenisBarang": "MATERIAL HANDAL"
+                },
+                {
+                    "id": 2519,
+                    "partNumber": "0211 2673",
+                    "material": "FUEL SUPPLY PUMP",
+                    "mesin": "BF6M 1013 EC",
+                    "jumlah": 1,
+                    "status": "N/A",
+                    "snMesin": "11956632",
+                    "unitULD": "KERASIAN",
+                    "lokasiTujuan": "KERASIAN",
+                    "jenisBarang": "MATERIAL HANDAL"
+                }
+            ]
+        },
+        {
             "id": 765,
             "nomor_lh05": "0734/ND KAL 2/LH05/2026",
             "tanggal_laporan": "2026-08-28T06:42",
