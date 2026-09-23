@@ -1,6 +1,44 @@
 {
     "gangguanTransactions": [
         {
+            "id": 838,
+            "nomor_lh05": "0807/ND KAL 2/LH05/2026",
+            "tanggal_laporan": "2026-09-23T00:40",
+            "jenis_gangguan": "ELEKTRIK",
+            "lokasi_gangguan": "SUNGAI BALI",
+            "user_laporan": "Muchlis Aditya Anhar",
+            "status": "Open",
+            "catatan_tindakan": "Recloser 24kV, 630A, 16kA",
+            "rencana_perbaikan": "Recloser 24kV, 630A, 16kA",
+            "ttd_teknisi": "data:image/png;base64,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",
+            "ttd_supervisor": "",
+            "created_at": "2026-09-23 00:43:31",
+            "updated_at": "2026-09-23 00:43:31",
+            "komponen_rusak": "Recloser 24kV, 630A, 16kA",
+            "gejala": "Recloser 24kV, 630A, 16kA",
+            "uraian_kejadian": "Recloser 24kV, 630A, 16kA",
+            "analisa_penyebab": "Recloser 24kV, 630A, 16kA",
+            "kesimpulan": "Recloser 24kV, 630A, 16kA",
+            "beban_puncak": 532,
+            "daya_mampu": 940,
+            "pemadaman": "NORMAL",
+            "kelompok_spd": "ELEKTRIK",
+            "materials": [
+                {
+                    "id": 2746,
+                    "partNumber": "Recloser 24kV, 630A, 16kA",
+                    "material": "Recloser 24kV, 630A, 16kA",
+                    "mesin": "Distribusi Recloser RTU",
+                    "jumlah": 1,
+                    "status": "Pengadaan",
+                    "snMesin": "Distribusi Recloser RTU",
+                    "unitULD": "SUNGAI BALI",
+                    "lokasiTujuan": "SUNGAI BALI",
+                    "jenisBarang": "MATERIAL HANDAL"
+                }
+            ]
+        },
+        {
             "id": 837,
             "nomor_lh05": "0806/ND KAL 2/LH05/2026",
             "tanggal_laporan": "2026-09-22T02:31",
@@ -270,7 +308,7 @@
                     "material": "BEARING GENERATOR",
                     "mesin": "MTU 12V 183 TA32",
                     "jumlah": 2,
-                    "status": "N/A",
+                    "status": "Pengadaan",
                     "snMesin": "444901400025931",
                     "unitULD": "KUDANGAN",
                     "lokasiTujuan": "KUDANGAN",
