@@ -1,6 +1,44 @@
 {
     "gangguanTransactions": [
         {
+            "id": 854,
+            "nomor_lh05": "0823/ND KAL 2/LH05/2026",
+            "tanggal_laporan": "2026-09-30T07:26",
+            "jenis_gangguan": "MEKANIK",
+            "lokasi_gangguan": "PEGATAN",
+            "user_laporan": "Rivaldo",
+            "status": "Open",
+            "catatan_tindakan": "Penggantian Pipa tekanan tinggi",
+            "rencana_perbaikan": "Menunggi material tiba di unit",
+            "ttd_teknisi": "data:image/png;base64,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",
+            "ttd_supervisor": "",
+            "created_at": "2026-09-30 07:33:10",
+            "updated_at": "2026-09-30 07:33:10",
+            "komponen_rusak": "Pipa tekanan tinggi",
+            "gejala": "solar keluar dari pipa tekanan tinggi",
+            "uraian_kejadian": "pada saat mesin beroperasi di beban 90 kW, tiba-tiba soalar keluar dari pipa tekanan tinggi yang menyebabkan mesin hunting dan solar berceceran di daerah sentral, kemudian mesin di standbykan.",
+            "analisa_penyebab": "Pipa tekanan tinggi pecah",
+            "kesimpulan": "Pipa tekanan tinggi",
+            "beban_puncak": 840,
+            "daya_mampu": 950,
+            "pemadaman": "SIAGA",
+            "kelompok_spd": "MEKANIK",
+            "materials": [
+                {
+                    "id": 2786,
+                    "partNumber": "442.070.9633",
+                    "material": "HIGH PRESURE PIPE SET",
+                    "mesin": "MTU 12V 183 TA32",
+                    "jumlah": 1,
+                    "status": "N/A",
+                    "snMesin": "901400024510",
+                    "unitULD": "PEGATAN",
+                    "lokasiTujuan": "PEGATAN",
+                    "jenisBarang": "MATERIAL HANDAL"
+                }
+            ]
+        },
+        {
             "id": 853,
             "nomor_lh05": "0822/ND KAL 2/LH05/2026",
             "tanggal_laporan": "2026-09-28T04:31",
