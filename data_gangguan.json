@@ -1,6 +1,80 @@
 {
     "gangguanTransactions": [
         {
+            "id": 864,
+            "nomor_lh05": "0833/ND KAL 2/LH05/2026",
+            "tanggal_laporan": "2026-10-03T13:39",
+            "jenis_gangguan": "ELEKTRIK",
+            "lokasi_gangguan": "GUDANG KAL 2",
+            "user_laporan": "MUCHLIS ADITYA ANHAR",
+            "status": "Open",
+            "catatan_tindakan": "Pengadaan AVR",
+            "rencana_perbaikan": "Pengadaan AVR",
+            "ttd_teknisi": "data:image/png;base64,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",
+            "ttd_supervisor": "",
+            "created_at": "2026-10-03 13:42:51",
+            "updated_at": "2026-10-03 13:42:51",
+            "komponen_rusak": "AVR",
+            "gejala": "AVR",
+            "uraian_kejadian": "AVR",
+            "analisa_penyebab": "AVR",
+            "kesimpulan": "AVR",
+            "beban_puncak": null,
+            "daya_mampu": null,
+            "pemadaman": "NORMAL",
+            "kelompok_spd": "ELEKTRIK",
+            "materials": [
+                {
+                    "id": 2799,
+                    "partNumber": "AS 440",
+                    "material": "AVR AS440",
+                    "mesin": "BF6M 1013 EC",
+                    "jumlah": 30,
+                    "status": "N/A",
+                    "snMesin": "Stok Gudang AMC UP Kal 2",
+                    "unitULD": "GUDANG KAL 2",
+                    "lokasiTujuan": "GUDANG KAL 2",
+                    "jenisBarang": "MATERIAL HANDAL"
+                },
+                {
+                    "id": 2800,
+                    "partNumber": "SX 440",
+                    "material": "AVR SX 440",
+                    "mesin": "MWM/MAN/DOOSAN/MTU/MERCY",
+                    "jumlah": 12,
+                    "status": "N/A",
+                    "snMesin": "Stok Gudang AMC UP Kal 2",
+                    "unitULD": "GUDANG KAL 2",
+                    "lokasiTujuan": "GUDANG KAL 2",
+                    "jenisBarang": "MATERIAL HANDAL"
+                },
+                {
+                    "id": 2801,
+                    "partNumber": "MX 341",
+                    "material": "AVR MX341",
+                    "mesin": "TCD 2013 L06 4V",
+                    "jumlah": 20,
+                    "status": "N/A",
+                    "snMesin": "Stok Gudang AMC UP Kal 2",
+                    "unitULD": "GUDANG KAL 2",
+                    "lokasiTujuan": "GUDANG KAL 2",
+                    "jenisBarang": "MATERIAL HANDAL"
+                },
+                {
+                    "id": 2802,
+                    "partNumber": "PREMIER",
+                    "material": "AVR PRIMER",
+                    "mesin": "BF6M 1013 E",
+                    "jumlah": 10,
+                    "status": "N/A",
+                    "snMesin": "Stok Gudang AMC UP Kal 2",
+                    "unitULD": "GUDANG KAL 2",
+                    "lokasiTujuan": "GUDANG KAL 2",
+                    "jenisBarang": "MATERIAL HANDAL"
+                }
+            ]
+        },
+        {
             "id": 863,
             "nomor_lh05": "0832/ND KAL 2/LH05/2026",
             "tanggal_laporan": "2026-10-03T08:13",
