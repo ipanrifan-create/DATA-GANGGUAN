@@ -1,6 +1,44 @@
 {
     "gangguanTransactions": [
         {
+            "id": 876,
+            "nomor_lh05": "0845/ND KAL 2/LH05/2026",
+            "tanggal_laporan": "2026-10-05T00:57",
+            "jenis_gangguan": "MEKANIK",
+            "lokasi_gangguan": "MENDAWAI",
+            "user_laporan": "RIVALDO",
+            "status": "Open",
+            "catatan_tindakan": "Mengganti material ",
+            "rencana_perbaikan": "menunggu injector tiba di unit",
+            "ttd_teknisi": "data:image/png;base64,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",
+            "ttd_supervisor": "",
+            "created_at": "2026-10-05 01:07:59",
+            "updated_at": "2026-10-05 01:07:59",
+            "komponen_rusak": "Injector",
+            "gejala": "Asap putih dari knalpot dan exhaust mengeluarkan solar",
+            "uraian_kejadian": "Pada saat mesin running tanpa beban, terlihat asap putih tebal keluar dari knalpot kemudian mesin di stanbykan. Operator yang bertugas melaporkan kejadian tersebut di ke koordiantor dan di lakukan investigas dan di dapati solar masuk ke exhausu.",
+            "analisa_penyebab": "injector macet",
+            "kesimpulan": "Injector",
+            "beban_puncak": 1045,
+            "daya_mampu": 955,
+            "pemadaman": "DEFISIT",
+            "kelompok_spd": "MEKANIK",
+            "materials": [
+                {
+                    "id": 2816,
+                    "partNumber": "1734493",
+                    "material": "FUEL INJECTOR",
+                    "mesin": "SCANIA DC 09072A",
+                    "jumlah": 6,
+                    "status": "N/A",
+                    "snMesin": "6947254",
+                    "unitULD": "MENDAWAI",
+                    "lokasiTujuan": "MENDAWAI",
+                    "jenisBarang": "MATERIAL HANDAL"
+                }
+            ]
+        },
+        {
             "id": 875,
             "nomor_lh05": "0844/ND KAL 2/LH05/2026",
             "tanggal_laporan": "2026-10-04T11:23",
