@@ -1,6 +1,44 @@
 {
     "gangguanTransactions": [
         {
+            "id": 895,
+            "nomor_lh05": "0864/ND KAL 2/LH05/2026",
+            "tanggal_laporan": "2026-10-15T08:32",
+            "jenis_gangguan": "MEKANIK",
+            "lokasi_gangguan": "TUMBANG SENAMANG",
+            "user_laporan": "Yudi Setiono",
+            "status": "Open",
+            "catatan_tindakan": "Membersihkan filter yg ada\nStok habis",
+            "rencana_perbaikan": "Menunggu pengadaan filter tersebut",
+            "ttd_teknisi": "data:image/png;base64,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",
+            "ttd_supervisor": "",
+            "created_at": "2026-10-15 08:37:37",
+            "updated_at": "2026-10-15 08:37:37",
+            "komponen_rusak": "Filter kotor",
+            "gejala": "Turbo pijar\nTemp air naik\nAsap hitam tebal",
+            "uraian_kejadian": "Saat beban puncak siang temp air naik\nAsap hitam tebal",
+            "analisa_penyebab": "Filter udara tersumbat",
+            "kesimpulan": "Filter udara kotor",
+            "beban_puncak": 315,
+            "daya_mampu": 435,
+            "pemadaman": "NORMAL",
+            "kelompok_spd": "MEKANIK",
+            "materials": [
+                {
+                    "id": 2933,
+                    "partNumber": "0118 1003",
+                    "material": "FILTER UDARA",
+                    "mesin": "BF6M 1013 EC",
+                    "jumlah": 6,
+                    "status": "N/A",
+                    "snMesin": "12027961",
+                    "unitULD": "TUMBANG SENAMANG",
+                    "lokasiTujuan": "TUMBANG SENAMANG",
+                    "jenisBarang": "FILTER"
+                }
+            ]
+        },
+        {
             "id": 894,
             "nomor_lh05": "0863/ND KAL 2/LH05/2026",
             "tanggal_laporan": "2026-10-15T03:39",
