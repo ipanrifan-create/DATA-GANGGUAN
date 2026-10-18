@@ -1,6 +1,68 @@
 {
     "gangguanTransactions": [
         {
+            "id": 906,
+            "nomor_lh05": "0875/ND KAL 2/LH05/2026",
+            "tanggal_laporan": "2026-10-18T14:41",
+            "jenis_gangguan": "MEKANIK",
+            "lokasi_gangguan": "KERAYAAN",
+            "user_laporan": "Habir",
+            "status": "Open",
+            "catatan_tindakan": "Dipantau sama operator",
+            "rencana_perbaikan": "Permintaan material",
+            "ttd_teknisi": "data:image/png;base64,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",
+            "ttd_supervisor": "",
+            "created_at": "2026-10-18 14:50:20",
+            "updated_at": "2026-10-18 14:50:20",
+            "komponen_rusak": "Radiator",
+            "gejala": "Water temperatur tinggi",
+            "uraian_kejadian": "Radiator bocor",
+            "analisa_penyebab": "Radiator banyak tambalan",
+            "kesimpulan": "Radiator",
+            "beban_puncak": 201,
+            "daya_mampu": 80,
+            "pemadaman": "SIAGA",
+            "kelompok_spd": "MEKANIK",
+            "materials": [
+                {
+                    "id": 2949,
+                    "partNumber": "RADIATOR",
+                    "material": "RADIATOR",
+                    "mesin": "BF6M 1013 EC",
+                    "jumlah": 1,
+                    "status": "N/A",
+                    "snMesin": "11914867",
+                    "unitULD": "KERAYAAN",
+                    "lokasiTujuan": "KERAYAAN",
+                    "jenisBarang": "MATERIAL HANDAL"
+                },
+                {
+                    "id": 2950,
+                    "partNumber": "RADIATOR",
+                    "material": "RADIATOR",
+                    "mesin": "BF6M 1013 EC",
+                    "jumlah": 1,
+                    "status": "N/A",
+                    "snMesin": "11914867",
+                    "unitULD": "KERAYAAN",
+                    "lokasiTujuan": "KERAYAAN",
+                    "jenisBarang": "MATERIAL HANDAL"
+                },
+                {
+                    "id": 2951,
+                    "partNumber": "RADIATOR",
+                    "material": "RADIATOR",
+                    "mesin": "BF6M 1013 EC",
+                    "jumlah": 1,
+                    "status": "N/A",
+                    "snMesin": "11914867",
+                    "unitULD": "KERAYAAN",
+                    "lokasiTujuan": "KERAYAAN",
+                    "jenisBarang": "MATERIAL HANDAL"
+                }
+            ]
+        },
+        {
             "id": 905,
             "nomor_lh05": "0874/ND KAL 2/LH05/2026",
             "tanggal_laporan": "2026-10-18T02:15",
