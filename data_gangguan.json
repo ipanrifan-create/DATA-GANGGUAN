@@ -1,6 +1,80 @@
 {
     "gangguanTransactions": [
         {
+            "id": 903,
+            "nomor_lh05": "0872/ND KAL 2/LH05/2026",
+            "tanggal_laporan": "2026-10-17T23:56",
+            "jenis_gangguan": "MEKANIK",
+            "lokasi_gangguan": "KERAYAAN",
+            "user_laporan": "Habir",
+            "status": "Open",
+            "catatan_tindakan": "Dipantau operator",
+            "rencana_perbaikan": "Permintaan material",
+            "ttd_teknisi": "data:image/png;base64,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",
+            "ttd_supervisor": "",
+            "created_at": "2026-10-18 00:07:14",
+            "updated_at": "2026-10-18 00:07:14",
+            "komponen_rusak": "Injector",
+            "gejala": "Hunting",
+            "uraian_kejadian": "Hunting",
+            "analisa_penyebab": "Injector",
+            "kesimpulan": "Injector",
+            "beban_puncak": 207,
+            "daya_mampu": 90,
+            "pemadaman": "NORMAL",
+            "kelompok_spd": "MEKANIK",
+            "materials": [
+                {
+                    "id": 2943,
+                    "partNumber": "0211-2640",
+                    "material": "HOLDER INJECTOR SET",
+                    "mesin": "BF6M 1013 EC",
+                    "jumlah": 6,
+                    "status": "N/A",
+                    "snMesin": "11963387",
+                    "unitULD": "KERAYAAN",
+                    "lokasiTujuan": "KERAYAAN",
+                    "jenisBarang": "MATERIAL HANDAL"
+                },
+                {
+                    "id": 2944,
+                    "partNumber": "0211-2640",
+                    "material": "HOLDER INJECTOR SET",
+                    "mesin": "BF6M 1013 EC",
+                    "jumlah": 6,
+                    "status": "N/A",
+                    "snMesin": "11953387",
+                    "unitULD": "KERAYAAN",
+                    "lokasiTujuan": "KERAYAAN",
+                    "jenisBarang": "MATERIAL HANDAL"
+                },
+                {
+                    "id": 2945,
+                    "partNumber": "0211-2640",
+                    "material": "HOLDER INJECTOR SET",
+                    "mesin": "BF6M 1013 EC",
+                    "jumlah": 6,
+                    "status": "N/A",
+                    "snMesin": "11953387",
+                    "unitULD": "KERAYAAN",
+                    "lokasiTujuan": "KERAYAAN",
+                    "jenisBarang": "MATERIAL HANDAL"
+                },
+                {
+                    "id": 2946,
+                    "partNumber": "0211-2640",
+                    "material": "HOLDER INJECTOR SET",
+                    "mesin": "BF6M 1013 EC",
+                    "jumlah": 6,
+                    "status": "N/A",
+                    "snMesin": "11953387",
+                    "unitULD": "KERAYAAN",
+                    "lokasiTujuan": "KERAYAAN",
+                    "jenisBarang": "MATERIAL HANDAL"
+                }
+            ]
+        },
+        {
             "id": 902,
             "nomor_lh05": "0871/ND KAL 2/LH05/2026",
             "tanggal_laporan": "2026-10-17T09:30",
