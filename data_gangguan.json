@@ -1,6 +1,82 @@
 {
     "gangguanTransactions": [
         {
+            "id": 966,
+            "nomor_lh05": "0933/ND KAL 2/LH05/2026",
+            "tanggal_laporan": "2026-10-22T13:46",
+            "jenis_gangguan": "MEKANIK",
+            "lokasi_gangguan": "BABAI",
+            "user_laporan": "Alwan",
+            "status": "Open",
+            "catatan_tindakan": "Saat ini memakai vanbelt bekas",
+            "rencana_perbaikan": "Pemasangan vanbelt baru",
+            "ttd_teknisi": "data:image/png;base64,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",
+            "ttd_supervisor": "",
+            "created_at": "2026-10-23 13:57:29",
+            "updated_at": "2026-10-23 13:57:29",
+            "komponen_rusak": "Vanbelt Alternator",
+            "gejala": "Ada Suara dengungan",
+            "uraian_kejadian": "Mesin sebelumnya beroperasi normal, tiba-tiba ada suara yang berasal dari sisi alternator, yng mengakibatkan suply arus DC ke proteksi bekerja dan membuat mesin dishutdown",
+            "analisa_penyebab": "Keausan kejenuhan bahan yang mengakibatkan pusnya vanbelt alternator",
+            "kesimpulan": "Vanbelt alternator",
+            "beban_puncak": 0.09,
+            "daya_mampu": 0.05,
+            "pemadaman": "SIAGA",
+            "kelompok_spd": "MEKANIK",
+            "materials": [
+                {
+                    "id": 3058,
+                    "partNumber": "0117-9988",
+                    "material": "Vant Belt Alternator",
+                    "mesin": "BF6M 1013 EC",
+                    "jumlah": 2,
+                    "status": "N/A",
+                    "snMesin": "12027954",
+                    "unitULD": "BABAI",
+                    "lokasiTujuan": "BABAI",
+                    "jenisBarang": "CONSUMABLE"
+                }
+            ]
+        },
+        {
+            "id": 965,
+            "nomor_lh05": "0932/ND KAL 2/LH05/2026",
+            "tanggal_laporan": "2026-10-23T16:00",
+            "jenis_gangguan": "ELEKTRIK",
+            "lokasi_gangguan": "RANGGA ILUNG",
+            "user_laporan": "Hendra Prianto",
+            "status": "Open",
+            "catatan_tindakan": "Segera",
+            "rencana_perbaikan": "segera",
+            "ttd_teknisi": "data:image/png;base64,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",
+            "ttd_supervisor": "",
+            "created_at": "2026-10-23 11:03:14",
+            "updated_at": "2026-10-23 11:03:14",
+            "komponen_rusak": "Sensor oli Doosan",
+            "gejala": "Mesin mati saat di start",
+            "uraian_kejadian": "Saat start awal -+ 5 detik mesin mati",
+            "analisa_penyebab": "sensor oli bermasalah",
+            "kesimpulan": "sensor oli / vdo",
+            "beban_puncak": 170,
+            "daya_mampu": 170,
+            "pemadaman": "SIAGA",
+            "kelompok_spd": "ELEKTRIK",
+            "materials": [
+                {
+                    "id": 3057,
+                    "partNumber": "VDO 17 MM",
+                    "material": "SENSOR TEKANAN OLI DOOSAN",
+                    "mesin": "DOOSAN & F10L 413",
+                    "jumlah": 4,
+                    "status": "N/A",
+                    "snMesin": "EAZ0B40994",
+                    "unitULD": "RANGGA ILUNG",
+                    "lokasiTujuan": "RANGGA ILUNG",
+                    "jenisBarang": "MATERIAL HANDAL"
+                }
+            ]
+        },
+        {
             "id": 964,
             "nomor_lh05": "0931/ND KAL 2/LH05/2026",
             "tanggal_laporan": "2026-10-23T09:17",
