@@ -1,6 +1,44 @@
 {
     "gangguanTransactions": [
         {
+            "id": 974,
+            "nomor_lh05": "0941/ND KAL 2/LH05/2026",
+            "tanggal_laporan": "2026-10-28T15:35",
+            "jenis_gangguan": "ELEKTRIK",
+            "lokasi_gangguan": "TELUK BETUNG",
+            "user_laporan": "Alwan",
+            "status": "Open",
+            "catatan_tindakan": "Sementara pakai ACCU mesin lain",
+            "rencana_perbaikan": "Penggantian ACCU",
+            "ttd_teknisi": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAC0CAYAAAC69XpYAAAQAElEQVR4AezdW6gkRx3H8dHN3ozGKPEaCaxiEBZEVAyaCD6ICKIP8YavKgqGPAj6EH0QBBPRFxUMCAo+RskqiCCCPohGcVEkD0aiGA2C0UjQ1Zjbrpff73DqUMzOmZk+011V/+pvqJqu6enp+tenuuefnjkz+/QF/yGAAAIIIHAEARLIEdB4CgIIIIDAYkEC4ShAoJYA/SIQXIAEEnwCCR8BBBCoJUACqSVPvwgggEBwgcAJJLg84SOAAALBBUggwSeQ8BFAAIFaAiSQWvL0i0BgAUJHwAIkECtQEUAAAQQGC5BABpPxBAQQQAABC5BArFC60h8CCCDQgQAJpINJZAgIIIBADQESSA11+kQAgVoC9DuiAAlkREx2hQACCMxJgAQyp9lmrAgggMCIAiSQETHnsCvGiAACCCQBEkiSYIkAAgggMEiABDKIi40RQACBWgLt9UsCaW9OiAgBBBAIIUACCTFNBIkAAgi0J0ACaW9OiGgaAfaKAAIjC5BARgZldwgggMBcBEggc5lpxokAAgiMLLB1Ahm5X3aHAAIIIBBcgAQSfAIJHwEEEKglQAKpJU+/CGwtwIYItClAAmlzXogKAQQQaF6ABNL8FBEgAggg0KbAHBJIm/JEhQACCAQXIIEEn0DCRwABBGoJkEBqydMvAnMQYIxdC5BAup7eUQf3hPb2X9X/HaH6eZf0PAoCCHQkQALpaDInGsp/tF8njZNaPk31KMXPO6Ynej+pOql4349pPQUBBAIKkECanrSqwaUX+uVjJK3fdnnYIJxUvO/T2iDt6yG1KQggEETAJ3CQUAmzkIDfavILet6d7/tKIb3o+7jZtvo5qV7UTr0vVzUvKy/UGl+ZaEFBAIHWBfwi0HqMxFdOwC/efqsp9egXer/4+zi5Mq3cYXlCz/W+XL1f17u0zv1osVe8zvf99tbeCm4QqCFAn5sFfCJv3ootehfwB+R+0faLdxqrrxZKHB/vU4fu51VaOgYt9orX+b7j2FvBDQIItCXgk7StiIimtICvOvwBeerXL9pOJL5aSOtKLO9VJz4eH9UyL1fojmPSgoIAAi0J+IRtKR5iKSvgF2Yni9Srk8k4x0Ta4/Dls/QUx+TPYtQ8KI714A4NBBCoL1D7xaK+wHwjWH5B/qMo8s8/dLdqOa7enUjyOPO2HqYggEBNARJITf16fecvxG77hfpMvXDW9uxj1FdGaSPHm9osEUDgcoFia3xyFuuMjpoQWH4xjnAM+MoojztvN4FKEAjMUSDCi8cc52WqMd+qHftqQ4u9Emn+nUTS1YfHsPwZyd6AuEEAgXICkV5Ayqn029MXs6FF/NZ3frw6odyfjWe0JjtCAIHtBPITcrtnsFVUgccVuP/PXYuF/0/+xW4ErI9kMV+ftWkigEBhARJIYfCK3Z3K+o4879doHPlnILyVJRAKAjUExn8hqTEK+twkkL/I+upj0/atP+63r1KMHMNJgiUChQU4+QqDV+quxxfclAjT23KVaOkWgfkKkED6n/v87Z6efqAwJZD+Z3D7EbIlAkUFSCBFuat0lv8fun9XqkoQE3T63An2yS4RQGCAAAlkAFbATfOrj/sCxr8u5AvZg/dkbZoIIFBIgASSQXfW9M+gp6sPv91ztrPx5cO5Ib9DGwEEygiQQMo41+glf7uq93nufXw1jh/6RGCjACfeRqLwG+RvY4UfzNIAfGXlVelKy21qSAGCjihAAok4a8NiPj9s81BbR/w5llDABIvAOgESyDodHmtd4NosQD5IzzBoIlBCgARSQnn6PugBAQQQKC5AAilOTocIIIBAHwIkkD7mkVEggEAtgRn3SwKZ8eQzdAQQQGAXARLILno8FwEEEJixAAlkxpPfxtB3iiL/ccgbd9oTT0YAgcECJJDBZDyhIQGO34Ymg1DmJ8AJ2P+c9zrH+dXHU/1PIyNEYHyBXffY64vLri48v32B/Ng92X64RIhAfwL5Sdjf6BhRrwJcffQ6s4wrlAAJJNR0Eey+QH7c1rv62A+GBQJzFchPxLkaMO5YAukXeB01n31YgYpAJQESSCV4uh0scKuekScPt7n6EAoFgVoCFRNIrSHPrt9e5vhL2cw5efQyrmxYNBGIJcBJGGu+5hpt/o9ikTzmehQw7uYESCDNTQkBLQlc0v30Lw6SPIQxRmEfCIwhQAIZQ5F9TCXwFe34mGoqHK9JgiUCDQhwQjYwCROHEHmOP5TZPJa1aSKAQAMCkV9c6vHRcwmB/MuC/gzkyhKd0gcCCGwvQALZ3oot1wt8TA/7hd6fU6yqfsz1orb7ueqmkh+b+dtYm57H4wggUEggP0kLdUk3HQl8XGNxUnDC+Lza6cNuNS8rfsz1Cj3yOlU/J1Xvw/VerXfxei9dnXC8pCJgAWpDAiSQhiZjolCmmmO/yH9OMTspaHFQvH5VPdhgRcP7cH2lHvNztTgoTjhOLq5+W+uCHjmnSkEAgcoCU724VB4W3U8ssPwi7+78IbeTgI+pVdWP5fVHepL/RHfVvvTQQcmf4/1epUduVvXzlqtWUxBAoJSAT8hSfdFPAwIjh+CrgvQCP/RD7jcpluOqPgb9lpaaFAQQiCTgkzdSvMTalsA7RgjnNdrHedW8+Moiv7+p7e3/vGkjHkcAgXEFSCDjerK34QK/WPEUX9Usr3aSWFWf1IY+jq/VkoJAwwL9heYTr79RMaJcoOU59ltgeax528nCjzuZuHocq+qp/Em0EUCgnIBPyHK90RMCi8X3hODE4AThxKC7eyXd9zpXH5t8/2OPhhsE2hTwSdpmZES1i8CZ7Mmfydq1m04Sb1UQThBaHJTfqbXpWNQmFAQQaEmAk7al2Rgvlj9oV/7OhOs31Z6qbPsvAqYrjlVx+IuC1696gHUIINC2AAmk7fnZJTp/Ac91l33s+lx/wO2rjvyKw/fTft0+ke6wRACBRgUOCYsEcggMq7cS+PaarXzVkScHJ4tfa/s8mXD8CYSCQFQBTuCoM1c3bicDR3DYlwf91lmeKJ7Qxj7WzmqZin+SJLVZIoBAQAGf1AHDJuTKAu/P+n80a6dmflw5kZzWAynpqLnw1cnVbsyjMkoE+hTIT/Q+R8iophD4unaaEsLyVUj+wbqvMq7LtlVz4efx57mWoCIQXIAEEnwCK4afX4X4L6lSKP59q9T2VcaD6Y6WTh4cc4KgINCDQISTuQfnHsfgqxD/Aq/H5r/2eliNB1RTcbJwze9zvCUNlgh0IMAJ3cEkVhyC377y5xkO4Xm6yb/A6M8+tGqvOJFwrO1RcINAPwKc1P3MZa2RbPo84x8KjONMCCELQSOwRoATew0OD20t8IYVW/qqw1chz1nxGKsQQKADARJIB5PYwBB+tiIGjq0VKKxCoCcBTvJJZ3M2O0+fg+QDvju/QxsBBPoTIIH0N6c1RuS3qpb7vXl5BfcRQKAvARJIX/NZYzT+2ZK837/t31mVVPYfYoHA9AL0ML0ACWR64957WD6GfpIN+F9ZmyYCCHQmsHzydzY8hlNBwG9d+ccT3fUzfUNFAIE+BUggfc7r7qM62h78p7t+5tt9s1+97qb9NgsEEOhIgATS0WRWGoq/KOgk4c9C0vH0A8XyU9VUfqyGr0y0oCCAQC8C6YTvZTyMo7yAvyjo48i/h5X3fqPufE01lXNqfESVggAC6wXCPOoTP0ywBBpO4IOK+A7VVL6sxu2qFAQQ6ECABNLBJDY+hE8ovltUU7lNja+qUhBAILgACST4BAYJ/07F+U7VVD6gxndUJynsFAEEygiQQMo408ti8S0hvFE1Ff+lVv5Be1rPEgEEggiQQIJMVCdh+kuGr8jG8nq1f69KQQCBgAKXJ5CAgyDkUAL3K9oXqabyUjX+qkpBAIFgAiSQYBPWSbh/0ThOqvr7I1osnq+bC6oUBBAIJEACCTRZnYX6lMbj489fQFRzcZVuHledc2HsCIQS8AkcKmCC7U7AX0BMv511SqO7pEpBAIEAAiSQAJM0gxBPa4z/VHU5phv/A1UntKQggEDDAl0lkIadCW2zwLO1ycOqLv63RJ5Ug1/zFQIFgVYFSCCtzsw843qBhv2Aaiq+Knl5usMSAQTaEiCBtDUfRLNYvEwIv1J18ZXIb9X4viqlaQGCm6MACWSOs97+mF+tEPNvqb9F9y+qcjUiBAoCrQiQQFqZCeJYFvDPwb9WK/2BuhYL/7WWr0a+6ztUBBCoL0ACqT8HjoC6WuCXWu2/yvJPoKi5V96mW65GhEBBoLYACaT2DND/NgL+EUauRraRYhsECgqQQApi09VOAulq5Hy2F1+N+Bvt2SqaCAwUYPMjC5BAjkzHEysJ3KB+b1JNP4FyXG3/ptZ7tKQggEBBARJIQWy6Gk3gHu3JH6rfrWUq31DjLlUKAggUEiCBFILut5uqI3u3ej+rmq5G3qv2n1QpCCBQQIAEUgCZLiYVuE9799XII1q6vEQ3/1bN/+Eq3aUggMDYAiSQsUXZXy2Ba9TxD1VdnqGb36j6Z1FIJIKg9ClQe1QkkNozQP9jCrxZO/ukavrLrDNqO5H4hxn/rvaDqneoUhBAYAQBEsgIiOyiKYHbFY3/tcNPaZkSiX8a/mrdv071w6oUBBAYQYAEMgIiu2hS4NOKyonkFi0/q/pR1Xep+kN3LRaLBbcIILCTAAlkJz6eHEDgTsV4m+oXVM+pPqRKQQCBEQRIICMgsgsEEEBgjgI7JJA5cjFmBBBAAIEkQAJJEiwRQAABBAYJkEAGcbExAm0IEAUCLQiQQFqYBWJAAAEEAgqQQAJOGiEjgAACLQjMM4G0IE8MCCCAQHABEkjwCSR8BBBAoJYACaSWPP0iME8BRt2RAAmko8lkKAgggEBJARJISW36QgABBDoSIIEEm0zCRQABBFoRIIG0MhPEgQACCAQTIIEEmzDCRQCBWgL0uyxAAlkW4T4CCCCAwFYCJJCtmNgIAQQQQGBZgASyLML9qQTYLwIIdCZAAulsQhkOAgggUEqABFJKmn4QQACBWgIT9UsCmQiW3SKAAAK9C5BAep9hxocAAghMJEACmQiW3fYkwFgQQGCVAAlklQrrEEAAAQQ2CpBANhKxAQIIIIDAKoESCWRVv6xDAAEEEAguQAIJPoGEjwACCNQSIIHUkqdfBEoI0AcCEwqQQCbEZdcIIIBAzwIkkJ5nl7EhgAACEwqQQNbi8iACCCCAwGECJJDDZFiPAAIIILBWgASylocHEUCglgD9ti9AAml/jogQAQQQaFKABNLktBAUAggg0L4ACaT9OTpahDwLAQQQmFiABDIxMLtHAAEEehUggfQ6s4wLAQRqCcymXxLIbKaagSKAAALjCpBAxvVkbwgggMBsBEggs5nqOAMlUgQQiCFAAokxT0SJAAIINCdAAmluSggIAQQQqCUwrF8SyDAvtkYAAQQQ2BcggexDsEAAAQQQGCZAAhnmxdYIrBPgMQRmJUACmdV0M1gEEEBgzNxGEAAAACFJREFUPAESyHiW7AkBBBCYlUBTCWRW8gwWAQQQCC7wfwAAAP//it53/QAAAAZJREFUAwAPd0p46/dbbAAAAABJRU5ErkJggg==",
+            "ttd_supervisor": "",
+            "created_at": "2026-10-28 00:41:37",
+            "updated_at": "2026-10-28 00:41:37",
+            "komponen_rusak": "ACCU",
+            "gejala": "Tegangan ACCU Drop",
+            "uraian_kejadian": "Sebelumnya accu sdh di cas , saat akan di buat start mesin tiba - tiba ACCU drop ",
+            "analisa_penyebab": "Cell ACCU sudah mengalami kerusakan ",
+            "kesimpulan": "Penggantian ACCU",
+            "beban_puncak": 0.08,
+            "daya_mampu": 0.05,
+            "pemadaman": "SIAGA",
+            "kelompok_spd": "ELEKTRIK",
+            "materials": [
+                {
+                    "id": 3067,
+                    "partNumber": "N150",
+                    "material": "ACCU 150Ah",
+                    "mesin": "BF6M 1013 E",
+                    "jumlah": 1,
+                    "status": "N/A",
+                    "snMesin": "12027956",
+                    "unitULD": "TELUK BETUNG",
+                    "lokasiTujuan": "TELUK BETUNG",
+                    "jenisBarang": "MATERIAL HANDAL"
+                }
+            ]
+        },
+        {
             "id": 973,
             "nomor_lh05": "0940/ND KAL 2/LH05/2026",
             "tanggal_laporan": "2026-10-27T09:45",
