@@ -1,6 +1,56 @@
 {
     "gangguanTransactions": [
         {
+            "id": 1070,
+            "nomor_lh05": "1037/ND KAL 2/LH05/2026",
+            "tanggal_laporan": "2026-11-21T00:41",
+            "jenis_gangguan": "MEKANIK",
+            "lokasi_gangguan": "KERUMPUTAN",
+            "user_laporan": "Fahrudin",
+            "status": "Open",
+            "catatan_tindakan": "mengganti thermostat",
+            "rencana_perbaikan": "menunggu sparepart baru",
+            "ttd_teknisi": "data:image/png;base64,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",
+            "ttd_supervisor": "",
+            "created_at": "2026-11-21 00:49:03",
+            "updated_at": "2026-11-21 00:49:03",
+            "komponen_rusak": "thermostat",
+            "gejala": "temperatur tinggi",
+            "uraian_kejadian": "temperatur berangsur naik",
+            "analisa_penyebab": "thermostat tidak membuka",
+            "kesimpulan": "thermostat tidak bekerja dan terjadi penyumbatan dipipa",
+            "beban_puncak": 50,
+            "daya_mampu": 100,
+            "pemadaman": "SIAGA",
+            "kelompok_spd": "MEKANIK",
+            "materials": [
+                {
+                    "id": 3451,
+                    "partNumber": "4204796",
+                    "material": "THERMOSTAT",
+                    "mesin": "BF6M 1013 EC",
+                    "jumlah": 1,
+                    "status": "N/A",
+                    "snMesin": "11953979",
+                    "unitULD": "KERUMPUTAN",
+                    "lokasiTujuan": "KERUMPUTAN",
+                    "jenisBarang": "MATERIAL HANDAL"
+                },
+                {
+                    "id": 3452,
+                    "partNumber": "04907772-B",
+                    "material": "SHAFT SEAL (KECIL) BF6M 1013 EC",
+                    "mesin": "BF6M 1013 EC",
+                    "jumlah": 1,
+                    "status": "N/A",
+                    "snMesin": "11953979",
+                    "unitULD": "KERUMPUTAN",
+                    "lokasiTujuan": "KERUMPUTAN",
+                    "jenisBarang": "MATERIAL HANDAL"
+                }
+            ]
+        },
+        {
             "id": 1069,
             "nomor_lh05": "1036/ND KAL 2/LH05/2026",
             "tanggal_laporan": "2026-11-20T10:32",
