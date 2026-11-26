@@ -1,6 +1,92 @@
 {
     "gangguanTransactions": [
         {
+            "id": 1078,
+            "nomor_lh05": "1045/ND KAL 2/LH05/2026",
+            "tanggal_laporan": "2026-11-26T01:34",
+            "jenis_gangguan": "MEKANIK",
+            "lokasi_gangguan": "PEGATAN",
+            "user_laporan": "Muhammad Ikhsan ",
+            "status": "Open",
+            "catatan_tindakan": "Menunggu matrial",
+            "rencana_perbaikan": "Setelah matrial datang",
+            "ttd_teknisi": "data:image/png;base64,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",
+            "ttd_supervisor": "",
+            "created_at": "2026-11-26 01:51:10",
+            "updated_at": "2026-11-26 01:51:10",
+            "komponen_rusak": "Pompa oli, oli cooler versi tebal,mein bearing,conrood bearing,gasket cilinder head, dan sharf seal radiator, ",
+            "gejala": "Tekanan atau fresur oli rendah dan suhu mesin panas",
+            "uraian_kejadian": "Mesin beroperasi dengan beban 40 KW tekanan oli 2.3 bar dan terus turun",
+            "analisa_penyebab": "Pompa oli,olicooler versi tebal,mein bearing,coonrood bearing,gasket cilinder head, dan sharfseal radiator minta diganti.",
+            "kesimpulan": "Pompa oli,alicooler versi tebal,mein bearing, conrood bearing, gasket cilinder head dan sharfseal radiator.",
+            "beban_puncak": 590,
+            "daya_mampu": 590,
+            "pemadaman": "SIAGA",
+            "kelompok_spd": "MEKANIK",
+            "materials": [
+                {
+                    "id": 3460,
+                    "partNumber": "4901179",
+                    "material": "CONROAD BEARING TCD",
+                    "mesin": "TCD 2013 L06 4V",
+                    "jumlah": 1,
+                    "status": "N/A",
+                    "snMesin": "11954660",
+                    "unitULD": "PEGATAN",
+                    "lokasiTujuan": "PEGATAN",
+                    "jenisBarang": "MATERIAL HANDAL"
+                },
+                {
+                    "id": 3461,
+                    "partNumber": "2931811",
+                    "material": "MAIN BEARING TCD",
+                    "mesin": "TCD 2013 L06 4V",
+                    "jumlah": 1,
+                    "status": "N/A",
+                    "snMesin": "11954660",
+                    "unitULD": "PEGATAN",
+                    "lokasiTujuan": "PEGATAN",
+                    "jenisBarang": "MATERIAL HANDAL"
+                },
+                {
+                    "id": 3462,
+                    "partNumber": "4912105",
+                    "material": "OIL COOLER",
+                    "mesin": "TCD 2013 L06 4V",
+                    "jumlah": 1,
+                    "status": "N/A",
+                    "snMesin": "11954660",
+                    "unitULD": "PEGATAN",
+                    "lokasiTujuan": "PEGATAN",
+                    "jenisBarang": "MATERIAL HANDAL"
+                },
+                {
+                    "id": 3463,
+                    "partNumber": "4907773-T",
+                    "material": "SHAFT SEAL (BESAR) TCD 2013",
+                    "mesin": "TCD 2013 L06 4V",
+                    "jumlah": 1,
+                    "status": "N/A",
+                    "snMesin": "11954660",
+                    "unitULD": "PEGATAN",
+                    "lokasiTujuan": "PEGATAN",
+                    "jenisBarang": "MATERIAL HANDAL"
+                },
+                {
+                    "id": 3464,
+                    "partNumber": "4204459",
+                    "material": "GASKET",
+                    "mesin": "BF6M 1013 EC",
+                    "jumlah": 1,
+                    "status": "N/A",
+                    "snMesin": "11661970",
+                    "unitULD": "PEGATAN",
+                    "lokasiTujuan": "PEGATAN",
+                    "jenisBarang": "MATERIAL HANDAL"
+                }
+            ]
+        },
+        {
             "id": 1077,
             "nomor_lh05": "1044/ND KAL 2/LH05/2026",
             "tanggal_laporan": "2026-11-23T11:12",
